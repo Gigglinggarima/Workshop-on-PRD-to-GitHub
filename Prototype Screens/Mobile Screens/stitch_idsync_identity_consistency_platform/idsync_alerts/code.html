@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#f8f9ff;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-container-high": "#dce9ff", "on-background": "#0b1c30", "on-secondary-container": "#fefcff", "surface-bright": "#f8f9ff", "error-container": "#ffdad6", "surface-container-highest": "#d3e4fe", "tertiary": "#000000", "on-primary-fixed-variant": "#3f465c", "on-secondary-fixed": "#00174b", "inverse-on-surface": "#eaf1ff", "secondary-fixed-dim": "#b4c5ff", "surface-dim": "#cbdbf5", "outline-variant": "#c6c6cd", "secondary-container": "#316bf3", "on-primary-fixed": "#131b2e", "on-surface-variant": "#45464d", "primary": "#000000", "primary-container": "#131b2e", "on-surface": "#0b1c30", "surface-container-low": "#eff4ff", "inverse-surface": "#213145", "secondary": "#0051d5", "surface-container": "#e5eeff", "outline": "#76777d", "secondary-fixed": "#dbe1ff", "on-secondary-fixed-variant": "#003ea8", "surface-container-lowest": "#ffffff", "tertiary-fixed": "#6ffbbe", "surface-variant": "#d3e4fe", "on-primary": "#ffffff", "background": "#f8f9ff", "on-secondary": "#ffffff", "tertiary-fixed-dim": "#4edea3", "on-tertiary-fixed": "#002113", "on-tertiary": "#ffffff", "on-error": "#ffffff", "inverse-primary": "#bec6e0", "error": "#ba1a1a", "surface": "#f8f9ff", "surface-tint": "#565e74", "primary-fixed": "#dae2fd", "primary-fixed-dim": "#bec6e0", "on-primary-container": "#7c839b", "on-error-container": "#93000a", "tertiary-container": "#002113", "on-tertiary-container": "#009668", "on-tertiary-fixed-variant": "#005236" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1.5rem", "gutter-sm": "1rem", "space-xl": "2.5rem", "space-md": "1rem", "space-xs": "0.25rem", "margin": "2rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin-sm": "1rem" }, fontFamily: { "headline-lg-mobile": ["Plus Jakarta Sans"], "data-mono": ["Inter"], "label-sm": ["Inter"], "headline-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-md": ["Inter"], "body-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"] }, fontSize: { "headline-lg-mobile": ["1.5rem", { "lineHeight": "2rem", "letterSpacing": "-0.015em", "fontWeight": "600" }], "data-mono": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.02em", "fontWeight": "500" }], "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-lg": ["2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-md": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "500" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "fontWeight": "400" }], "display-lg": ["3rem", { "lineHeight": "3.5rem", "letterSpacing": "-0.03em", "fontWeight": "700" }], "body-sm": ["0.875rem", { "lineHeight": "1.25rem", "fontWeight": "400" }], "body-md": ["1rem", { "lineHeight": "1.5rem", "fontWeight": "400" }], "display-lg-mobile": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.025em", "fontWeight": "700" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-sm flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="IDSync Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJYkQaQ55mHn7FvdnktAGPJYTGcS04EQRMaTfsSFgug2oF5Op1XUSjrI6LRHL_x07smUjK60Z1_FzpJ_3F221jhqAkcZ4BTpS8FVo7LeAWx5pTT4pkiJ_ToEHDCYmu626rTv85YdR10jM2CmeofmxcNZaB5w6rBDWUUakdrGx4MIpn29IHo36Kv0DnqtMSxYP_Z3ch_HImSf-obFU8Or8ZqcdGuRPzLiSDmkYEZf80jrSsddrF1LDx"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-secondary tracking-wider uppercase font-semibold">IDSync</span><span class="font-headline-md text-headline-md text-on-surface leading-tight">Dashboard</span></div></div><div class="flex items-center gap-space-sm"><div class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface-variant"><span class="material-symbols-outlined text-[14px] text-secondary">shield</span><span class="font-label-sm text-label-sm font-medium">Private &amp; Secure</span></div><div class="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhXpFQzT4Klbqx3dNOdMlBOGAtkHNj4go5Pj9GSWiVcK8Di-500fMWnRMiOyYwujb_dMdTOeIiAmBDJlH4cwJPXZmdg8ikaiblUv0kLbadDtjU0j0Zelttwm81Qm4FF1Spuy5BHLpm4OHchxw0KKDwJShVPMib-IWc3zlGIqWIpCDTKEU4ZStvzl9RSJfaoUasavYZJ6qtKcOYxQUlI_1Ids3tBEGQqGu1HFGjjrfwDAxSmenKlPK6"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface px-gutter-sm"><div class="flex flex-col w-full gap-space-md">
+<!-- Screen Context / Page Title Header -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="inline-flex w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">Live Intelligence</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight">Alerts &amp; Notifications</h1>
+</div>
+<button class="flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant transition-colors shadow-sm active:scale-95" id="markAllReadBtn">
+<span class="material-symbols-outlined text-[18px] text-secondary">done_all</span>
+<span class="font-label-sm text-label-sm font-semibold">Mark read</span>
+</button>
+</div>
+<!-- Filter Pill Switcher -->
+<div class="flex items-center gap-2 overflow-x-auto py-1 no-scrollbar">
+<button class="filter-chip px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm whitespace-nowrap shadow-sm transition-all active:scale-95 flex items-center gap-1.5" data-filter="all">
+<span>All</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-lowest text-primary text-[10px] font-bold">3</span>
+</button>
+<button class="filter-chip px-3.5 py-1.5 rounded-full bg-surface-container-lowest hover:bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm whitespace-nowrap transition-all shadow-sm active:scale-95 flex items-center gap-1.5" data-filter="high">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+<span>High Priority</span>
+<span class="px-1.5 py-0.2 rounded-full bg-error-container text-on-error-container text-[10px] font-bold">1</span>
+</button>
+<button class="filter-chip px-3.5 py-1.5 rounded-full bg-surface-container-lowest hover:bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm whitespace-nowrap transition-all shadow-sm active:scale-95 flex items-center gap-1.5" data-filter="resolved">
+<span>Solved</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container text-on-surface-variant text-[10px] font-bold">1</span>
+</button>
+</div>
+<!-- Quick Health Status Micro-Card -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px] text-secondary">verified_user</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">KYC Readiness: Priya Sharma</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">2 active notices require your review</span>
+</div>
+</div>
+<div class="shrink-0 pl-2">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm font-semibold">92% Match</span>
+</div>
+</div>
+<!-- Notification Feed Container -->
+<div class="flex flex-col gap-space-sm" id="alertsList">
+<!-- Alert 1: High Priority -->
+<article class="alert-item high bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3 relative transition-all" data-type="high">
+<div class="flex items-start justify-between gap-2">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-error-container text-on-error-container">
+<span class="w-1.5 h-1.5 rounded-full bg-error animate-ping"></span>
+<span class="font-label-sm text-label-sm font-semibold">High Priority • Action Recommended</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">Today, 10:24 AM</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-secondary-container shrink-0"></div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold">Name Mismatch: Aadhaar vs PAN</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed pl-4">
+          Aadhaar lists <strong class="text-on-surface font-semibold">“Priya Suresh Sharma”</strong> while PAN lists <strong class="text-on-surface font-semibold">“Priya S Sharma”</strong>. High risk of rejection for upcoming mutual fund or passport KYC.
+        </p>
+</div>
+<!-- Diff Preview pill -->
+<div class="ml-4 bg-surface-container-low rounded-lg p-2.5 flex items-center justify-between text-body-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Aadhaar (UIDAI)</span>
+<span class="font-data-mono text-data-mono font-semibold text-on-surface">Priya <span class="bg-surface-container-high px-1 rounded text-secondary font-bold">Suresh</span> Sharma</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_forward</span>
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">PAN (ITD)</span>
+<span class="font-data-mono text-data-mono font-semibold text-on-surface">Priya <span class="bg-error-container px-1 rounded text-on-error-container font-bold">S</span> Sharma</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center justify-end gap-2 pt-1 pl-4">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-md text-label-md transition-colors active:scale-95 snooze-btn">
+          Snooze 14 days
+        </button>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all active:scale-95 shadow-sm flex items-center gap-1">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</article>
+<!-- Alert 2: Medium / Review Alert -->
+<article class="alert-item review bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3 relative transition-all" data-type="review">
+<div class="flex items-start justify-between gap-2">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-on-secondary-fixed-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm font-semibold">Review Needed • Formatting</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">Yesterday</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-secondary shrink-0"></div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold">Address Line Variation</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed pl-4">
+          Pin code matches (<span class="font-data-mono text-data-mono text-on-surface font-semibold">110001</span>), but street line contains abbreviation <strong class="text-on-surface font-semibold">“Rd”</strong> vs <strong class="text-on-surface font-semibold">“Road”</strong>. Low risk, informational.
+        </p>
+</div>
+<!-- Compact metadata chip row -->
+<div class="ml-4 flex items-center gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="px-2 py-0.5 rounded bg-surface-container-low">Driving Licence</span>
+<span class="material-symbols-outlined text-[14px]">sync_alt</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low">Aadhaar Card</span>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center justify-end gap-2 pt-1 pl-4">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-md text-label-md transition-colors active:scale-95 dismiss-btn">
+          Dismiss
+        </button>
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all active:scale-95 flex items-center gap-1 mark-reviewed-btn">
+<span class="material-symbols-outlined text-[16px] text-secondary">check</span>
+<span>Mark Reviewed</span>
+</button>
+</div>
+</article>
+<!-- Alert 3: Success / Resolved Alert -->
+<article class="alert-item resolved bg-surface-container-lowest/80 rounded-xl p-4 shadow-sm flex flex-col gap-3 relative transition-all opacity-85" data-type="resolved">
+<div class="flex items-start justify-between gap-2">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span>
+<span class="font-label-sm text-label-sm font-semibold">Resolved • Auto-verified</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">3 days ago</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary shrink-0">check_circle</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold">Date of Birth Parity Confirmed</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed pl-6">
+          Birth date (<span class="font-data-mono text-data-mono text-on-surface font-semibold">14/08/1996</span>) verified consistent across Aadhaar, PAN, and Class 10 Certificate.
+        </p>
+</div>
+<div class="ml-6 flex items-center gap-1.5 text-label-sm font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-secondary">lock</span>
+<span>Cryptographically matched via DigiLocker token</span>
+</div>
+</article>
+</div>
+<!-- Intelligent Alert Policy Banner -->
+<div class="w-full rounded-2xl bg-surface-container-low p-4 flex items-start gap-3 shadow-sm mt-1">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">sentiment_satisfied</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md font-semibold text-on-surface">Zero Spam Guarantee</span>
+<span class="px-1.5 py-0.2 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold">Policy</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+        IDSync only alerts you when discrepancies cross regulatory verification thresholds. No marketing noise, no panic flags.
+      </p>
+</div>
+</div>
+<!-- Historical Archival Link / Micro Delight -->
+<div class="flex items-center justify-center py-2">
+<button class="inline-flex items-center gap-1.5 text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors">
+<span class="material-symbols-outlined text-[16px]">history</span>
+<span>View 14 Resolved Alerts from past 6 months</span>
+</button>
+</div>
+</div>
+<script>
+  // Filter switching interaction
+  const filterButtons = document.querySelectorAll('.filter-chip');
+  const alertItems = document.querySelectorAll('.alert-item');
+  const markAllBtn = document.getElementById('markAllReadBtn');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach(b => {
+        b.classList.remove('bg-primary', 'text-on-primary');
+        b.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+      });
+      btn.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+      btn.classList.add('bg-primary', 'text-on-primary');
+
+      const filter = btn.getAttribute('data-filter');
+      alertItems.forEach(item => {
+        if (filter === 'all') {
+          item.style.display = 'flex';
+        } else if (filter === 'high' && item.getAttribute('data-type') === 'high') {
+          item.style.display = 'flex';
+        } else if (filter === 'resolved' && item.getAttribute('data-type') === 'resolved') {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Inline dismiss & snooze actions
+  document.querySelectorAll('.snooze-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const card = e.target.closest('article');
+      card.style.opacity = '0.5';
+      btn.textContent = 'Snoozed 14d';
+      btn.disabled = true;
+    });
+  });
+
+  document.querySelectorAll('.dismiss-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const card = e.target.closest('article');
+      card.style.transform = 'translateX(20px)';
+      card.style.opacity = '0';
+      setTimeout(() => card.remove(), 200);
+    });
+  });
+
+  document.querySelectorAll('.mark-reviewed-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const card = e.target.closest('article');
+      card.classList.remove('bg-surface-container-lowest');
+      card.classList.add('bg-surface-container-low');
+      btn.innerHTML = '<span class="material-symbols-outlined text-[16px] text-secondary">check</span><span>Reviewed</span>';
+      btn.disabled = true;
+    });
+  });
+
+  if (markAllBtn) {
+    markAllBtn.addEventListener('click', () => {
+      document.querySelectorAll('.alert-item').forEach(item => {
+        item.style.opacity = '0.85';
+      });
+      markAllBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] text-secondary">check_circle</span><span class="font-label-sm text-label-sm font-semibold">All Read</span>';
+    });
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="text-secondary font-semibold"><div class="flex justify-around items-center h-16 px-gutter-sm"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[22px]">dashboard</span><span class="font-label-sm text-label-sm">Dashboard</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="my-documents" href="#"><span class="material-symbols-outlined text-[22px]">badge</span><span class="font-label-sm text-label-sm">Documents</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors relative" data-path="mismatches-alerts" href="#"><span class="material-symbols-outlined text-[22px]">rule</span><span class="font-label-sm text-label-sm">Mismatches</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="profile-settings" href="#"><span class="material-symbols-outlined text-[22px]">manage_accounts</span><span class="font-label-sm text-label-sm">Settings</span></a></div></nav></body></html>
